@@ -11,6 +11,11 @@ public class Buttons : MonoBehaviour
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
     }
+    void Update()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+    }
     public void Menu()
     {
         SceneManager.LoadScene(0);
